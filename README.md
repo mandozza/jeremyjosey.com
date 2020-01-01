@@ -1,3 +1,7 @@
+## JeremyJosey.com
+
+After letting my site stay dormant for multiple years running strictly on HTML I have decided to redo the site using modern technologies. I will use Reactjs, Nextjs, Wordpress, and Sass to build out my new site. The goal is to improve my understanding of modern Javascript by redoing my personal website.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
