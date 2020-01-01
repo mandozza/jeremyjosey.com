@@ -1,0 +1,25 @@
+//Colors
+$coreColor : #002D46;
+$secondColor: #00EBB9;
+$thirdColor: #35576B;
+$blackColor: #000;
+$whiteColor:#FFF;
+$greyColor: #CCC;
+
+//Color Variations
+$coreColorDarker:darken($coreColor, 20%);
+$coreColorLighten:lighten($coreColor, 20%); 
+$secondColorDarker:darken($secondColor, 20%);
+$secondColorLighten:lighten($secondColor, 20%);
+$thirdColorDarker:darken($thirdColor, 20%);
+$thirdColorLighten:lighten($thirdColor, 20%);  
+
+//fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+$coreFont: 'Raleway', sans-serif;
+//$secondFont= '';
+
+
+$backgroundColor: $coreColor;
+$fontColor: $whiteColor;
