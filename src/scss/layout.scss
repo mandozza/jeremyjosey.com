@@ -6,7 +6,35 @@ Body{
     font-size: 16px;
 }
 
-h1{
-    font-weight: bolder;
-    font-size: 36px;
+.wrapper {
+    display:block;
+	max-width:$wrapper;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:$mobilegutter;
+	padding-right:$mobilegutter;
 }
+
+.contentarea{
+ display:flex;
+ flex-direction: row;
+}
+
+.mainContent{
+    display:flex;
+    flex-direction: column;
+    padding:40px;
+    flex-basis: 700px;
+    flex-grow:1;
+}
+
+.sideBar{
+    display:flex;
+    flex-direction: row;
+    flex-basis: 300px;
+    flex-grow:1;
+    padding:40px 30px;
+    
+}
+

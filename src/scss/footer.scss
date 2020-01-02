@@ -1,0 +1,13 @@
+.footer{
+    @include border-opacity-top( double, 6px, $secondColor , .3);
+    background-color: $coreColorLighter;
+    bottom:0;
+    color:$whiteColor;
+    font-size: 16px;
+    height:300px;
+    left:0;
+    padding:20px;
+    position: absolute;
+    right:0;
+    width:100%;
+}

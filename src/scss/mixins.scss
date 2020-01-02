@@ -1,0 +1,5 @@
+//Border Opacity
+@mixin border-opacity-top($type, $size ,$color, $opacity){
+    border-top: $type $size $color; /*include incase browser doesn't support*/
+    border-top: $type $size rgba($color, $opacity) ;
+}

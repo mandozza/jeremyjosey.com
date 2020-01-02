@@ -1,0 +1,14 @@
+.mainnavbar{
+    background-color: $coreColorDarker;
+    height:44px;
+    
+}
+
+.mainnavbar-link{
+    padding: 16px 24px;
+    color: $whiteColor;
+    text-decoration: none;
+    &:hover{
+        border-bottom: 2px solid $secondColor;
+    }
+}

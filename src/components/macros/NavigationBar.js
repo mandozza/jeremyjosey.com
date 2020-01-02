@@ -1,9 +1,13 @@
 import React from 'react'
-
+import NavBarLink from '../micros/NavBarLink';
 export default function NavigationBar() {
     return (
-        <div>
-            Here is the navbar
-        </div>
+        <nav className="mainnavbar">
+            <div className="wrapper">
+                <NavBarLink title="Home" linkUrl="homeurl" />
+                <NavBarLink title="About" linkUrl="abouturl" />
+                <NavBarLink title="Contact" linkUrl="contacturl" />
+            </div>
+        </nav>
     )
 }
